@@ -11,7 +11,7 @@ public class Game_With_Sticks {
 		
 		//奇数次Akshat赢，偶数次Malvika
 		int temp = Math.min(n, m);
-		if(n % 2== 0) {
+		if(temp % 2== 0) {
 			System.out.println("Malvika");
 		} else {
 			System.out.println("Akshat");
